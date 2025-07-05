@@ -8,4 +8,11 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+
+  server: {
+    hmr: true,
+    watch: {
+      usePolling: true
+    }
+  },
 })
